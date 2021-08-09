@@ -43,11 +43,11 @@ from tensorflow.keras.callbacks import EarlyStopping
 #Import Data
 
 Titanic_train = pd.read_csv(
-    r'/work/ML/machine_learning_practice/dataset/kaggle/titanic/train.csv')
+    r'dataset/kaggle/titanic/train.csv')
 # print(Titanic_train.head(5))
 
 Titanic_predict = pd.read_csv(
-    r'/work/ML/machine_learning_practice/dataset/kaggle/titanic/test.csv')
+    r'dataset/kaggle/titanic/test.csv')
 # print(Titanic_predict.head(5))
 
 # print(Titanic_train.describe())

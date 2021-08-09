@@ -31,8 +31,8 @@ import lightgbm as lgb
 
 warnings.filterwarnings('ignore')
 #Data analyzation
-df_train = pd.read_csv(r'/work/ML/machine_learning_practice/dataset/kaggle/house_price/train.csv')
-df_test = pd.read_csv(r'/work/ML/machine_learning_practice/dataset/kaggle/house_price/test.csv')
+df_train = pd.read_csv(r'dataset/kaggle/house_price/train.csv')
+df_test = pd.read_csv(r'dataset/kaggle/house_price/test.csv')
 
 y_train = 0
 
