@@ -27,8 +27,8 @@ from keras.callbacks import ReduceLROnPlateau
 sns.set(style='white', context='notebook', palette='deep')
 
 
-train = pd.read_csv(r'/work/ML/machine_learning_practice/dataset/kaggle/digit_recognizer/train.csv')
-test = pd.read_csv(r'/work/ML/machine_learning_practice/dataset/kaggle/digit_recognizer/test.csv')
+train = pd.read_csv(r'dataset/kaggle/digit_recognizer/train.csv')
+test = pd.read_csv(r'dataset/kaggle/digit_recognizer/test.csv')
 
 Y_train = train['label']
 X_train = train.drop(labels=['label'], axis=1)
